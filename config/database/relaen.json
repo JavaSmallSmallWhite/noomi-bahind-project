@@ -1,0 +1,25 @@
+{
+    "product": "relaen",
+    "use_pool": true,
+    "options": {
+        "dialect": "mysql",
+        "host": "127.0.0.1",
+        "port": 3306,
+        "username": "root",
+        "password": "root",
+        "database": "react_database",
+        "pool": {
+            "min": 0,
+            "max": 10
+        },
+        "entities": [
+            "/dist/module/entity/**/*.js"
+        ],
+        
+        "debug":true
+        
+    },
+    "transaction": {
+        "expressions": []
+    }
+}
